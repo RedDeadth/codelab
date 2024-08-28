@@ -19,21 +19,7 @@ import com.example.codelab.R
 @Composable
 fun TutorialScreen() {
     Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text("Jetpack Compose Tutorial") },
-                navigationIcon = {
-                    IconButton(onClick = { /* TODO: Open drawer */ }) {
-                        Icon(Icons.Filled.Menu, contentDescription = "Menu")
-                    }
-                },
-                actions = {
-                    IconButton(onClick = { /* TODO: Open settings */ }) {
-                        Icon(Icons.Filled.Settings, contentDescription = "Settings")
-                    }
-                }
-            )
-        }
+
     ) { padding ->
         Column(
             modifier = Modifier
