@@ -1,6 +1,7 @@
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
+
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Settings
@@ -46,7 +47,7 @@ fun TutorialScreen() {
                 contentDescription = "Jetpack Compose Icon",
                 modifier = Modifier
                     .fillMaxWidth()
-                    .aspectRatio(1.5f)
+                    .aspectRatio(3.3f)
                     .align(Alignment.CenterHorizontally),
                 contentScale = ContentScale.Crop
             )
